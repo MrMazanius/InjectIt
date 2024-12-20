@@ -12,7 +12,7 @@ The configuration file must be named `config.ini` and placed in the same directo
 
 If you're compiling the project yourself, note that you cannot run the executable directly from Visual Studio (using the play button). Instead, you need to run it from File Explorer.
 
-Make sure the file path uses 2 \\ instead of just a single \
+Make sure the file path uses double \\ instead of just a single \
 #### Example of `config.ini`:
 ```ini
 [Settings]
