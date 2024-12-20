@@ -6,12 +6,14 @@ This tool operates quietly in the background, continuously monitoring for a spec
 
 After the injection is successfully executed, the tool monitors the process for re-opening and repeats the injection process as needed, ensuring smooth and automated functionality.
 
-### Configging Tutorial
+### Configuration Tutorial
 
-The config file has to be named `config.ini`. 
+The configuration file must be named `config.ini` and placed in the same directory as `InjectIt.exe`.
 
-Config.ini Example:
-```bash
+If you're compiling the project yourself, note that you cannot run the executable directly from Visual Studio (using the play button). Instead, you need to run it from File Explorer.
+
+#### Example of `config.ini`:
+```ini
 [Settings]
 DllPath=C:\\Users\\obiot\\Documents\\GitHub\\CutieHook\\build\\x64\\Debug\\Counter-Strike2 Internal.dll
 Process=cs2.exe
