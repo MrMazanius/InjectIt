@@ -12,10 +12,11 @@ The configuration file must be named `config.ini` and placed in the same directo
 
 If you're compiling the project yourself, note that you cannot run the executable directly from Visual Studio (using the play button). Instead, you need to run it from File Explorer.
 
+Make sure the file path uses 2 \\ instead of just a single \
 #### Example of `config.ini`:
 ```ini
 [Settings]
-DllPath=C:\\Users\\obiot\\Documents\\GitHub\\CutieHook\\build\\x64\\Debug\\Counter-Strike2 Internal.dll
+DllPath=C:\\path\\to\\your\\dll\\to_inject.dll
 Process=cs2.exe
 WaitTimeFromProcessFoundToInject_Seconds=10
 ```
