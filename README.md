@@ -20,3 +20,6 @@ DllPath=C:\\path\\to\\your\\dll\\to_inject.dll
 Process=cs2.exe
 WaitTimeFromProcessFoundToInject_Seconds=10
 ```
+
+## External Libraries/Frameworks Used
+[SimpleIni](https://github.com/brofield/simpleini)
