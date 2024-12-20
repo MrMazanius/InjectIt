@@ -23,3 +23,4 @@ WaitTimeFromProcessFoundToInject_Seconds=10
 
 ## External Libraries/Frameworks Used
 [SimpleIni](https://github.com/brofield/simpleini)
+[Simple Injector](https://github.com/adamhlt/DLL-Injector) Used a lot of the functions from there.
