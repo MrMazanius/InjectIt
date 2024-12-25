@@ -15,7 +15,7 @@ If you're compiling the project yourself, note that you cannot run the executabl
 #### Example of `config.ini`:
 ```ini
 [Settings]
-DllPath=C:\\path\\to\\your\\dll\\to_inject.dll
+DllPath=C:\path\to\your\dll\to_inject.dll
 Process=cs2.exe
 WaitTimeFromProcessFoundToInject_Seconds=10
 ```
